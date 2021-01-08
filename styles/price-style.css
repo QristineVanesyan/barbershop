@@ -1,0 +1,348 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+}
+
+main {
+    padding: 0 0;
+    margin: 0 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /*font*/
+    font-family: 'PT Sans Narrow', 'Myriad Pro', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    background-repeat: repeat;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+    /*background*/
+    background-color: #ffffff;
+    background-image: url("../images/pattern-light.jpg");
+   /* background-image: url("../images/barbershop-price.jpg");
+    background-repeat: no-repeat;*/
+    background-position: top center;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.41);
+
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 24px;
+    font-size: 16px
+}
+
+.site-navigation a:hover, .site-navigation a:active,
+.user-navigation a:hover, .user-navigation a:active {
+    background-color: rgb(36, 36, 36);
+}
+
+.main-price h1 {
+    font-size: 30px;
+    line-height: 42px;padding-bottom: 10px;
+}
+
+.main-price a {
+    color: inherit;
+}
+
+.main-price a {
+    color: inherit;
+}
+
+.current-page {
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #aba9a7;
+    font-weight: lighter;
+}
+
+.path {
+    list-style: none;
+}
+
+.shop-description p {
+    font-size: 48px;
+    line-height: 48px;
+
+
+}
+.slogan
+{
+    text-align: center;
+}
+.shop-description h3 {
+    font-size: 24px;
+    line-height: 30px;
+    /*  text-align: center;*/
+    margin-top: 20px;
+    margin-bottom : 20px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #000000;
+}
+
+th, td {
+    border: 1px solid #000000;
+}
+
+td {
+    text-align: center;
+}
+
+th {
+    text-align: left;
+    padding: 5px;
+}
+.brands
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.brands li
+{
+   padding-bottom: 17px;
+}
+.shop-description .desc {
+    font-size: 14px;
+    line-height: 24px;
+
+}
+
+.main-footer {
+    color: #ffffff;
+    background-color: rgb(51, 51, 51);
+    background-image: url("../images/pattern-dark.jpg");
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+
+.footer-contacts a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.footer-contacts a:hover,
+.footer-contacts a:hover {
+    text-decoration: none;
+}
+
+.footer-social ul {
+    list-style: none;
+}
+
+.footer-social {
+    text-align: center;
+}
+
+.footer-copyright {
+    text-align: center;
+}
+
+.social-button {
+    color: #ffffff;
+}
+
+.footer-copyright .button:hover,
+.footer-copyright .button:active {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.main-price {
+    margin: 0 0;
+    background-position: 0 0;
+}
+
+.footer-contacts {
+    padding: 0;
+    margin: 0;
+}
+
+.user-navigation ul {
+    padding: 0;
+    margin: 0;
+}
+
+
+.main-header {
+    margin-bottom: 55px;
+    min-height: 72px;
+    background-color: #000000;
+}
+
+.container {
+
+    min-height: 72px;
+    width: 940px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.container1
+{
+    width: 940px;
+    margin: 0 auto;
+}
+.main-navigation-wrapper
+{
+    padding: 11px;
+    display: flex;
+
+}
+.logo
+{
+    padding: 10px;
+    padding-right: 5px;
+}
+.site-navigation, .user-navigation {
+    list-style: none;
+
+}
+.site-navigation
+{
+    display: flex;  justify-content: space-between;
+    width: 500px;
+    padding-right: 150px;
+
+    padding-left: 34px;
+}
+.user-navigation
+{
+
+    display: flex;
+}
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+.path
+{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: start;
+}
+.container2
+{
+    display: flex;
+    justify-content: space-between;
+    min-height: 275px;
+}
+.container3
+{
+    display: flex;
+
+    min-height: 100px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.description
+{
+    width: 260px;
+
+
+}
+tr,td,th{
+    width: 230px;
+    height: 32px;
+}
+th{
+    padding-left: 10px;
+}
+.prices-table
+{
+    width: 460px;
+
+}
+.paragraph1,.paragraph2
+{
+    text-align: left;
+
+    margin: 0;
+    padding: 0;
+    min-height: 100px;
+
+}
+.paragraph1
+{
+    width: 390px;
+    padding-right: 90px;
+
+}
+.paragraph2
+{
+    width: 390px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*--------------------------footer------------------------*/
+.container5 {
+    display: flex;
+    width: 940px;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.main-footer .container5
+{
+    padding: 60px 0;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    min-height: 194px;
+
+
+}
+.footer-contacts
+{
+    width: 320px;
+    margin: 0;
+    min-height: 180px;
+    margin-right: 80px;
+}
+.footer-social
+{
+    width: 145px;
+    min-height: 100px;
+
+}
+.footer-copyright
+{
+
+    width: 150px;
+    margin: 0;
+    min-height: 100px;margin-left: auto;
+}
+

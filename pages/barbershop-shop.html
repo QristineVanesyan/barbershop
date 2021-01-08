@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../styles/shop-style.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
+    <title>МАГАЗИН</title>
+</head>
+<body>
+<header class="main-header">
+    <nav class="main-navigation">
+        <div class="container">
+            <div class="main-navigation-wrapper">
+                <div class="logo">
+                    <a href="#"><img src="../svg/logo.svg" alt=""></a>
+                </div>
+                <ul class="site-navigation">
+                    <li><a href="#">ИНФОРМАЦИЯ</a></li>
+                    <li><a href="#">НОВОСТИ</a></li>
+                    <li><a href="#">ПРАЙС-ЛИСТ</a></li>
+                    <li><a href="#">МАГАЗИН</a></li>
+                    <li><a href="#">КОНТАКТЫ</a></li>
+                </ul>
+            </div>
+            <ul class="user-navigation">
+                <li class="login-link"><a href="../pages/login.html">Вход</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<sidebar class="container1">
+<h1>СРЕДСТВА ДЛЯ УХОДА</h1>
+<form action="#" method="GET">
+    <fieldset>
+        <legend class="title">ПРОИЗВОДИТЕЛИ:</legend>
+        <ul class="items-types">
+        <li><label>
+            <input id="filter-baxter-of-cali" name="baxter-of-cali" type="checkbox"><span>Baxter of California</span>
+        </label>
+        </li><li>
+        <label>
+            <input id="filter-mr-natty" name="mr-natty" type="checkbox"><span>Mr Natty</span>
+        </label>
+        </li><li>
+        <label>
+            <input id="filter-suavecito" name="suavecito" type="checkbox"><span>Suavecito</span>
+        </label>
+        </li><li>
+        <label>
+            <input id="filter-malin-goetz" name="malin-goetz" type="checkbox"><span>Malin+Goetz</span>
+        </label>
+        </li><li>
+        <label>
+            <input id="filter-murray" name="murray" type="checkbox"><span>Murray’s</span>
+        </label>
+        </li><li>
+        <label>
+            <input id="filter-american-crew" name="american-crew" type="checkbox"><span>American Crew</span>
+        </label>
+        </li>
+        </ul>
+    </fieldset>
+    <fieldset>
+        <legend class="title">ГРУППЫ ТОВАРОВ:</legend>
+        <ul class="items-types">
+            <li>
+                <label>
+                    <input id="filter-shaving-accessories" name="product-group" value="shaving" type="radio">Бритвенные принадлежности
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input id="filter-care-products" name="product-group" value="hair-care" type="radio">Средства для ухода
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input id="filter-accessories" name="product-group"  value="accessories" type="radio">Аксессуары
+                </label>
+            </li>
+        </ul>
+    </fieldset>
+    <button class="button" type="submit">ПОКАЗАТЬ</button>
+</form>
+</sidebar>
+<main>
+<ul class="items-column">
+    <li>
+        <figure class="shop-item-image">
+            <a href="#">
+                <img src="../images/Layer%2038.jpg" alt="Набор для путешествий ">
+            </a>
+        </figure>
+        <h2>Набор для путешествий <br> «Baxter of California»</h2>
+        <p class="price">2900 ₽</p>
+        <button class="button" type="button">КУПИТЬ</button>
+    </li>
+    <li>
+        <figure class="shop-item-image">
+            <a href="#">
+                <img src="../images/Layer%2030.jpg" alt="Увлажняющий кондиционер">
+            </a>
+        </figure>
+
+
+
+        <h2>Увлажняющий кондиционер <br> «Baxter of California»</h2>
+        <p class="price">750 ₽</p>
+        <button class="button" type="button">КУПИТЬ</button>
+    </li>
+    <li>
+        <figure class="shop-item-image">
+            <a href="#">
+                <img src="../images/Layer%2039.jpg" alt="Гель для волос">
+            </a>
+        </figure>
+        <h2>Гель для волос <br> «SUAVECITO»</h2>
+        <p class="price">290 ₽</p>
+        <button class="button" type="button">КУПИТЬ</button>
+    </li>
+
+    <li>
+        <figure class="shop-item-image">
+            <a href="#">
+                <img src="../images/Layer%2032.jpg" alt="Гель для волос">
+            </a>
+        </figure>
+
+        <h2>Глина для укладки волос <br> «American crew»</h2>
+        <p class="price">300 ₽</p>
+        <button class="button" type="button">КУПИТЬ</button>
+
+    </li>
+    <li>
+        <figure class="shop-item-image">
+            <a href="#">
+                <img src="../images/Layer%2033.jpg" alt="Глина для укладки волос">
+            </a>
+        </figure>
+        <a href="">
+
+        </a>
+        <h2>Гель для волос <br> «AMERICAN CREW»</h2>
+        <p class="price">500 ₽</p>
+        <button class="button" type="button">КУПИТЬ</button>
+
+    </li>
+    <li>
+        <figure class="shop-item-image">
+            <a href="">
+                <img src="../images/Layer%2042.jpg" alt="Набор для бритья">
+            </a>
+        </figure>
+
+        <h2>Набор для бритья <br>  «Baxter of California»</h2>
+        <p class="price">3 900 ₽</p>
+
+        <button class="button" type="button">КУПИТЬ</button>
+    </li>
+</ul>
+    <ul class="pagination">
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+    </ul>
+</main>
+<footer class="main-footer">
+    <div class="container1">
+        <div class="footer-contacts">
+            <h2 class="visually-hidden">Адрес Барбершопа БОРОДИНКИЙ</h2>
+            <p class="footer-contacts">БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+                АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8 <br>
+                <a href="#">КАК НАС НАЙТИ?</a> <br>
+                ТЕЛЕФОН: +7 (495) 666-02-66</p> <br>
+        </div>
+        <div class="footer-social">
+            <b>Давайте дружить!</b>
+            <ul class="social">
+                <li>
+                    <a class="social-button" href="#"><img src="../svg/vk.svg" alt="Вконтакте"></a>
+                </li>
+                <li><a class="social-button" href="#"><img src="../svg/facebook.svg" alt="Фейсбук"></a></li>
+                <li><a class="social-button" href="#"><img src="../svg/instagram.svg" alt="Инстаграм"></a></li>
+            </ul>
+        </div>
+
+        <div class="footer-copyright">
+            <p>
+                <b>Разработано:</b><br>
+                <a class="button" href="https://github.com/Umorph">HTML Academy</a>
+            </p></div>
+    </div>
+</footer>
+</body>
+</html>
