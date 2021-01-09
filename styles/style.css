@@ -42,8 +42,8 @@ body {
     text-transform: uppercase;
     /*background*/
     background-color: #000000;
-     /*   background-image: url("../images/background.jpg");*/
-    background-image: url("../images/barbershop-index.jpg");
+        background-image: url("../images/background.jpg");
+    /*background-image: url("../images/barbershop-index.jpg");*/
     background-repeat: no-repeat;
     background-position: top center;
 }
@@ -65,7 +65,7 @@ a {
     color: #ffffff;
     vertical-align: middle;
     text-transform: uppercase;
-
+    margin-right: 16px;
     background-color: #000000;
     border: none;
 
@@ -80,7 +80,6 @@ a {
 .main-navigation {
     font-size: 16px;
     line-height: 20px;
-    background-color: #000000;
     color: #ffffff;
 }
 
@@ -134,20 +133,51 @@ width: 20px;
     color: black;
     background-color: #ffffff;
     background-image: url("../images/pattern-light.jpg");
-
-
+/*opacity:0.5;*/
+}
+.button:disabled,.button.disabled
+{
+    opacity: 0.5;
+    background-color: #000000;
+    cursor: default;
 }
 
 .index-columns h2 {
     font-size: 30px;
     line-height: 42px;
 }
+.news
+{
+    position: relative;
+}
+.news button
+{
+    position: absolute;
+    bottom: 0;
+}
+.appointment-form
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.appointment-item
+{
+    margin: 0;
+    margin-bottom: 10px;
 
+    width: 140px;
+
+}
 .news-list {
     list-style: none;
     margin: 0;
     padding: 0;
     margin-bottom: 25px;
+}
+.news a{
+    position: absolute;
+    bottom: 0;
 }
 
 .news-list time {
@@ -161,32 +191,60 @@ width: 20px;
     margin: 0;
 }
 .gallery-content {
-    width: 286px;
+   margin: 0;
     height: 164px;
-    font-size: 14px;
-    line-height: 24px;
-    border: 7px solid #ffffff;
-    background-color: rgb(229, 229, 229);
-}
 
+    border: 7px solid #ffffff;
+    background-color: #cccccc;
+}
+.gallery-container{
+    position: relative;
+    height: 260px;
+
+}
 .appointment-item input {
-    font: inherit; font-size: 14px;
-    line-height: 24px;
+    font: inherit;
+box-sizing: border-box;
+    width: 140px;
+    padding-top: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 7px ;
     background-color: transparent;
     border: 2px solid #000000;
     color: #000000;
 
 }
+.appointment .button
+{
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+.appointment label
+{
+    display: block;
+    padding-left: 15px;
+    padding-bottom: 9px;
 
+}
 .appointment-item input:focus {
     outline: none;
     border-color: rgb(102, 61, 21);
+}
+.gallery-button
+{
+    box-sizing: border-box;
+    width: 140px;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
 }
 
 .main-footer {
     color: #ffffff;
     background-color: rgb(51, 51, 51);
- /*   background-image: url("../images/pattern-dark.jpg");*/
+    background-image: url("../images/pattern-dark.jpg");
     background-position: 0 0;
     background-repeat: repeat;
 }
@@ -212,11 +270,42 @@ width: 20px;
 .footer-copyright {
     text-align: center;
 }
-
-.social-button {
-    color: #ffffff;
+.social
+{
+    margin: 0;
+    padding: 0;
+    width: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 18px;
+    justify-content: space-between;
 }
+.footer-copyright .button
+{
+    display: block;
+    margin: 0;
+}
+.social-button {
+    background-color: black;
+    width: 43px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+align-items: center;
+    margin-bottom: 10px;
+}
+.social-button:hover,
+.social-button:hover
+{
+    background-color: #ffffff;
 
+}
+.social-button:hover path,
+.social-button:hover path
+{
+
+    fill: #000000;
+}
 .footer-copyright .button:hover,
 .footer-copyright .button:active {
     background-color: #ffffff;
@@ -261,7 +350,7 @@ width: 20px;
 
     margin-bottom: 75px;
     min-height: 72px;
-    background-color: rgba(171, 169, 167, 0.3);
+
 }
 
 .main-navigation {
@@ -269,7 +358,6 @@ width: 20px;
     flex-direction: column;
     min-height: 285px;
     align-items: center;
-    background-color: rgba(171, 169, 167, 0.3);
 }
 
 .main-header-logo {
@@ -281,13 +369,15 @@ width: 20px;
 
 .main-navigation-wrapper {
     margin-bottom: 60px;
-    min-height: 70px;
+    min-height: 70px; background-color: black;
+    width: 100%;
 }
 
 .container {
     width: 940px;
     margin: 0 auto;
 padding: 0 10px;
+
 
 }
 
@@ -306,7 +396,6 @@ padding: 0 10px;
     display: flex;
     list-style: none;
     min-height: 70px;
-    background-color: rgba(220, 23, 72, 0.3);
 }
 
 
@@ -364,7 +453,6 @@ opacity: 1;
 
     min-height: 170px;
     width: 300px;
-    background-color: rgba(128, 0, 0, 0.5);
 
 }
 .feature-item p{
@@ -377,6 +465,7 @@ opacity: 1;
     margin: 0 auto;
     justify-content: center;
     flex-direction: column;
+
 
 }
 
@@ -393,9 +482,23 @@ background-color: white;
 }
 
 .news, .contacts {
-    width: 380px; font-size: 14px;
+    width: 380px;
+    font-size: 14px;
     line-height: 24px;
     min-height: 315px;
+    
+}
+.contacts p{
+    margin: 0;
+    margin-bottom: 25px;
+}
+.contacts-button-how-go,.gallery-button-back
+{
+    left: 0;
+}
+.gallery-button-next
+{
+    right: 0;
 }
 
 .gallery, .appointment {
