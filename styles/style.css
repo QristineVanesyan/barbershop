@@ -42,16 +42,17 @@ body {
     text-transform: uppercase;
     /*background*/
     background-color: #000000;
-        background-image: url("../images/background.jpg");
+    background-image: url("../images/background.jpg");
     /*background-image: url("../images/barbershop-index.jpg");*/
     background-repeat: no-repeat;
     background-position: top center;
 }
-img
-{
+
+img {
     max-width: 100%;
     height: auto;
 }
+
 a {
     text-decoration: none;
     color: inherit;
@@ -86,13 +87,18 @@ a {
 .site-navigation, .user-navigation {
     list-style: none;
 }
-.user-navigation a{
-    display: block; padding: 26px;
+
+.user-navigation a {
+    display: block;
+    padding: 26px;
 
 }
-.site-navigation a{
-    display: block;  padding: 26px;
+
+.site-navigation a {
+    display: block;
+    padding: 26px;
 }
+
 .site-navigation a:hover,
 .site-navigation a:focus,
 .site-navigation a:hover,
@@ -118,25 +124,28 @@ a {
     margin-bottom: 60px;
 
 }
+
 .feature-item h3::after {
-content: "";
+    content: "";
     position: absolute;
-width: 20px;
+    width: 20px;
     height: 20px;
     bottom: -30px;
     margin-left: -10px;
-    transform:rotate(45deg);
+    transform: rotate(45deg);
     left: 50%;
-    background-color: #ffffff; rotation: 90deg;
+    background-color: #ffffff;
+    rotation: 90deg;
 }
+
 .index-columns {
     color: black;
     background-color: #ffffff;
     background-image: url("../images/pattern-light.jpg");
-/*opacity:0.5;*/
+    /*opacity:0.5;*/
 }
-.button:disabled,.button.disabled
-{
+
+.button:disabled, .button.disabled {
     opacity: 0.5;
     background-color: #000000;
     cursor: default;
@@ -146,36 +155,38 @@ width: 20px;
     font-size: 30px;
     line-height: 42px;
 }
-.news
-{
+
+.news {
     position: relative;
 }
-.news button
-{
+
+.news button {
     position: absolute;
     bottom: 0;
 }
-.appointment-form
-{
+
+.appointment-form {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.appointment-item
-{
+
+.appointment-item {
     margin: 0;
     margin-bottom: 10px;
 
     width: 140px;
 
 }
+
 .news-list {
     list-style: none;
     margin: 0;
     padding: 0;
     margin-bottom: 25px;
 }
-.news a{
+
+.news a {
     position: absolute;
     bottom: 0;
 }
@@ -183,57 +194,62 @@ width: 20px;
 .news-list time {
     text-transform: none;
 }
-.news-item
-{
+
+.news-item {
     margin-bottom: 25px;
 }
-.news-item p{
+
+.news-item p {
     margin: 0;
 }
+
 .gallery-content {
-   margin: 0;
+    margin: 0;
     height: 164px;
 
     border: 7px solid #ffffff;
     background-color: #cccccc;
 }
-.gallery-container{
+
+.gallery-container {
     position: relative;
     height: 260px;
 
 }
+
 .appointment-item input {
     font: inherit;
-box-sizing: border-box;
+    box-sizing: border-box;
     width: 140px;
     padding-top: 8px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 7px ;
+    padding-bottom: 7px;
     background-color: transparent;
     border: 2px solid #000000;
     color: #000000;
 
 }
-.appointment .button
-{
+
+.appointment .button {
     display: block;
     width: 100%;
     margin: 0;
 }
-.appointment label
-{
+
+.appointment label {
     display: block;
     padding-left: 15px;
     padding-bottom: 9px;
 
 }
+
 .appointment-item input:focus {
     outline: none;
     border-color: rgb(102, 61, 21);
 }
-.gallery-button
-{
+
+.gallery-button {
     box-sizing: border-box;
     width: 140px;
     margin: 0;
@@ -270,8 +286,8 @@ box-sizing: border-box;
 .footer-copyright {
     text-align: center;
 }
-.social
-{
+
+.social {
     margin: 0;
     padding: 0;
     width: 140px;
@@ -280,57 +296,137 @@ box-sizing: border-box;
     margin-top: 18px;
     justify-content: space-between;
 }
-.footer-copyright .button
-{
+
+.footer-copyright .button {
     display: block;
     margin: 0;
 }
+
 .social-button {
     background-color: black;
     width: 43px;
     height: 43px;
     display: flex;
     justify-content: center;
-align-items: center;
+    align-items: center;
     margin-bottom: 10px;
 }
+
 .social-button:hover,
-.social-button:hover
-{
+.social-button:hover {
     background-color: #ffffff;
 
 }
+
 .social-button:hover path,
-.social-button:hover path
-{
+.social-button:hover path {
 
     fill: #000000;
 }
+
 .footer-copyright .button:hover,
 .footer-copyright .button:active {
     background-color: #ffffff;
     color: #000000;
 }
 
-.modal {
-    color: #000000;
-    background-image: url("../images/pattern-light.jpg");
-    background-position: 0 0;
-    background-repeat: repeat;
-}
-
-.modal h2 {
-    font-size: 30px;
-}
 
 .login-form input[type="email"],
 .login-form input[type="password"] {
+    box-sizing: border-box;
+    width: 300px;
+    padding: 10px 15px;
+    padding-right: 40px;
     font: inherit;
     color: #000000;
-    background-color: transparent;
+    text-transform: uppercase;
+
+
+    background-color: #f9f6f3;
     border: 2px solid #000000;
 }
+.login-form input:focus
+{
+    border-color: #663d15;
+}
+.login-form
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 15px 0;
+}
+.login-help
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 15px 0;
+}
+.login-icon-password
+{
+background-image: url("../svg/lock.svg");
+    background-repeat: no-repeat;
+    background-position: 270px center;
+}
+.login-checkbox
+{
+    position: relative;
+    padding-left:30px;
+    cursor: pointer;
+}
+.login-checkbox input[type="checkbox"] + .checkbox-indicator
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 17px;
+    height: 17px;
+        border: 2px solid #000000;
+}
+.login-checkbox:hover,
+.login-checkbox:focus
+{
+color: #663d15;
+}
+.login-checkbox input[type="checkbox"]:focus + .checkbox-indicator
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 17px;
+    height: 17px;
+    border: 2px solid #000000;
 
+
+
+}
+.login-checkbox input[type="checkbox"]:checked+.checkbox-indicator::before,
+.login-checkbox input[type="checkbox"]:checked+.checkbox-indicator::after
+{
+    position: absolute;
+    content: "";
+    top: 8px;
+    left: 1px;
+    width: 15px;
+    height: 2px;
+
+    background-color: #000000;
+}
+.login-checkbox input[type="checkbox"]:checked+.checkbox-indicator::before
+{
+    transform: rotate(45deg);
+}
+.login-checkbox input[type="checkbox"]:checked+.checkbox-indicator::after
+{
+    transform: rotate(-45deg);
+}
+.login-icon-user
+{
+    background-image: url("../svg/user.svg");
+    background-repeat: no-repeat;
+    background-position: 270px center;
+}
 .login-checkbox:focus,
 .login-checkbox:hover {
     color: #663d15;
@@ -369,14 +465,15 @@ align-items: center;
 
 .main-navigation-wrapper {
     margin-bottom: 60px;
-    min-height: 70px; background-color: black;
+    min-height: 70px;
+    background-color: black;
     width: 100%;
 }
 
 .container {
     width: 940px;
     margin: 0 auto;
-padding: 0 10px;
+    padding: 0 10px;
 
 
 }
@@ -408,19 +505,19 @@ padding: 0 10px;
 
     list-style: none;
     min-height: 70px;
-    background-color: rgba(234,255,45,0.2);
- /*   box-shadow: inset 0 0 0 2px rgb(234,255,45);*/
+    background-color: rgba(234, 255, 45, 0.2);
+    /*   box-shadow: inset 0 0 0 2px rgb(234,255,45);*/
     background-color: black;
 }
-.user-navigation,.login-link
-{
-   /* padding-left: 50px;*/
+
+.user-navigation, .login-link {
+    /* padding-left: 50px;*/
     position: relative;
 }
-.login-link::before
-{
+
+.login-link::before {
     opacity: 0.3;
-content: "";
+    content: "";
     top: 27px;
     width: 16px;
     height: 18px;
@@ -429,11 +526,13 @@ content: "";
     background-position: 0 0;
     position: absolute;
 }
+
 .login-link:hover::before,
 .login-link:hover:focus,
-.login-link:hover:active{
-opacity: 1;
+.login-link:hover:active {
+    opacity: 1;
 }
+
 .feature-list {
     margin-bottom: 80px;
 }
@@ -455,7 +554,8 @@ opacity: 1;
     width: 300px;
 
 }
-.feature-item p{
+
+.feature-item p {
     margin: 0 10px;
 }
 
@@ -474,10 +574,10 @@ opacity: 1;
     justify-content: space-between;
     padding: 50px 80px;
     margin-bottom: 35px;
-background-color: white;
+    background-color: white;
     background-image: url("../images/lin.png");
-    background-repeat: no-repeat,repeat;
-    background-position: center,0 0;
+    background-repeat: no-repeat, repeat;
+    background-position: center, 0 0;
 
 }
 
@@ -486,18 +586,19 @@ background-color: white;
     font-size: 14px;
     line-height: 24px;
     min-height: 315px;
-    
+
 }
-.contacts p{
+
+.contacts p {
     margin: 0;
     margin-bottom: 25px;
 }
-.contacts-button-how-go,.gallery-button-back
-{
+
+.contacts-button-how-go, .gallery-button-back {
     left: 0;
 }
-.gallery-button-next
-{
+
+.gallery-button-next {
     right: 0;
 }
 
@@ -506,34 +607,110 @@ background-color: white;
     min-height: 300px;
 }
 
-.main-footer .container1
-{
+.main-footer .container1 {
     padding: 60px 0;
     margin-top: 5px;
     display: flex;
-flex-direction: row;
+    flex-direction: row;
     min-height: 194px;
 
 
 }
-.footer-contacts
-{
- width: 320px;
+
+.footer-contacts {
+    width: 320px;
     margin: 0;
     min-height: 180px;
     margin-right: 80px;
 }
-.footer-social
-{
-width: 145px;
-min-height: 100px;
+
+.footer-social {
+    width: 145px;
+    min-height: 100px;
 
 }
-.footer-copyright
-{
 
-width: 150px;
+.footer-copyright {
+
+    width: 150px;
     margin: 0;
-    min-height: 100px;margin-left: auto;
+    min-height: 100px;
+    margin-left: auto;
 }
 
+.modal {
+    position: fixed;
+    color: #000000;
+    background-color: #f8f3f0;
+    background-image: url("../images/pattern-light.jpg");
+    background-position: 0 0;
+    background-repeat: repeat;
+
+    box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+}
+
+.modal-login {
+    top: 120px;
+    left: 50%;
+
+    margin-left: -230px;
+    width: 300px;
+    padding: 50px 80px;
+}
+.login-btn
+{
+    content: "";
+    margin: 0;
+}
+
+.modal-close {
+    position: absolute;
+    top: 0;
+    content: "";
+    right: -34px;
+
+    width: 22px;
+    height: 22px;
+
+    cursor: pointer;
+
+    background-color: transparent;
+    border: 0;
+}
+
+.modal-close::after,
+.modal-close::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 2px;
+    width: 19px;
+    height: 3px;
+    background-color: #d0d0d0;
+}
+
+.modal-close::after {content: "";
+    transform: rotate(45deg);
+}
+
+.modal-close::before {content: "";
+    transform: rotate(-45deg);
+}
+
+.modal h2 {
+    font-size: 30px;
+}
+.modal-map
+{
+    /*position: fixed;*/
+    top: 50%;
+    left: 50%;
+    height: 561px;
+    width: 766px;
+    margin-left: -390px;
+    margin-top: -280px;
+    border: 7px solid #ffffff;
+}
+.modal-map p{
+    margin: 0;
+}
